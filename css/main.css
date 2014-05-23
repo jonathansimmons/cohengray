@@ -10,7 +10,7 @@ body {
   height:400px;
   max-height:400px;
   width:100%;
-  background: url('/images/cohen-header-20.jpg') no-repeat center center;
+  background: url('images/cohen-header-20.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
