@@ -1,0 +1,74 @@
+body {
+  background:#f0f0f0;
+  font-family: 'Lato', sans-serif;
+  padding-bottom:30px;
+  -webkit-overflow-scrolling: touch;
+}
+
+#header {
+  background:#fff;
+  height:400px;
+  max-height:400px;
+  width:100%;
+  background: url('/images/cohen-header-20.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 280px;
+  text-shadow: 1px 0 15px rgba(0,0,0,0.3);
+}
+
+.thumb {
+  margin-top: 30px;
+}
+
+.thumb img {
+  width:100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.thumb:hover .links {
+  opacity:1;
+}
+
+.links {
+  -webkit-transition: all 250ms linear;
+  transition:all 250ms linear;
+  padding: 15px 30px;
+  position: absolute;
+  width: 90%;
+  bottom: 0px;
+  opacity:0;
+}
+
+.links a {
+  border-color: #08c;
+  color: #08c;
+}
+.links a:hover {
+  border-color: #08c;
+  color: #08c;
+}
+
+.links a .glyphicon {
+  float: left;
+  margin: 2px 0px 2px 5px;
+}
+
+@media (max-width:320px) {
+  #header {
+    height:200px;
+  }
+  #header h1 {
+    font-size:50px;
+    margin-top:50px;
+  }
+}
